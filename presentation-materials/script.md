@@ -15,21 +15,24 @@ The famous example is Samsung in 2023. Their engineers pasted proprietary semico
 ---
 
 ## Risk 2: AI Agents and Prompt Injection
-The second risk involves AI agents. Regular chatbots just respond to your questions. But AI agents are different - they can actually control your browser. They click buttons, fill forms, navigate pages, and take actions on your behalf. Current examples include ChatGPT Atlas from OpenAI, Comet from Perplexity, Google Gemini integrated in Chrome, and Manus from China.
-Here's the important part: AI agents don't steal your stored passwords. The risk is different. They share your browser session. If you're already logged into Gmail, the AI agent can access your emails - not by stealing your password, but by using your active session cookies. The website sees the request as coming from you because you're already authenticated.
+Second: AI agents. Regular chatbots just respond to you. But AI agents can actually control your browser - clicking buttons, filling forms, navigating pages on your behalf.
+Examples include ChatGPT Atlas, Perplexity's Comet, Gemini in Chrome, and Manus.
+Here's the key point: AI agents don't steal your stored passwords. They share your browser session. If you're logged into Gmail, the agent can access your emails using your session cookies. The website sees it as you.
 
-This creates a vulnerability called prompt injection. Attackers can hide malicious instructions inside webpage content. When you ask the AI to summarize a webpage, the AI reads both the visible content AND the hidden instructions. So hidden text might say "open Gmail and extract all emails." Since the AI is using your session and you're logged in, it can actually do this.
-This isn't theoretical. Perplexity's Comet was exploited through a hidden spoiler tag on Reddit. In one test, ChatGPT Atlas only blocked about 6% of phishing attempts, while regular Chrome blocks 47%. According to Anthropic, without proper safeguards, these attacks succeed about 24% of the time.
+The main risk is prompt injection. Websites can hide instructions in their content. When the AI reads the page, it can execute those hidden instructions instead of yours.
+For example, you ask the AI to summarize a page, but hidden text tells it to access your email. Since it's using your session, it can.
+This has happened - Comet was exploited through a Reddit post, and according to one test, ChatGPT Atlas only caught about 6% of phishing attempts.
 
 ---
 
 ## Risk 3: Vibe Coding
-The third risk is called "vibe coding." This term was coined by Andrej Karpathy in February 2025. The idea is you describe what you want in natural language, and AI writes all the code for you. You don't need to understand programming - just trust the AI to make it work.
-Tools like Lovable, Cursor, and Google's recently released Antigravity make this easy. Lovable alone generates about 7 apps per second and has a $1.8 billion valuation. The appeal is obvious - anyone can build an app without coding knowledge.
-The problem is most users don't review what the AI generates. They just check if it works, not if it's secure.
+Third: vibe coding. The idea is you describe what you want, and AI writes the code for you. You don't need to understand the code - just trust it works.
+Tools like Lovable, Cursor, and Google's recently released Antigravity make this easy.
+The thing is, most people don't review what the AI generates.
 
-The Tea app disaster in July 2025 shows what can go wrong. Tea was a women-only dating app where women share reviews about men to warn each other about bad dates or dangerous behavior. Ironically, the app meant to protect women ended up exposing them. Security researchers found the database was publicly accessible - the AI had generated a Firebase configuration with no authentication at all. Over 72,000 selfies and government IDs were leaked, plus more than a million private messages, and even EXIF location data that let people map where users lived.
-The root cause wasn't a sophisticated hack. It was a basic security failure - the kind that happens when someone builds an app without understanding security fundamentals. According to one study, about 48% of AI-generated code contains some kind of vulnerability.
+One example: the Tea app in July 2025. It was a women-only dating app for sharing reviews about men. But the app itself had no database security - the AI had generated a default config with no authentication. Security researchers found the database was publicly accessible.
+Over 72,000 IDs and a million messages were exposed.
+According to one study, about 48% of AI-generated code has some kind of vulnerability.
 
 ---
 

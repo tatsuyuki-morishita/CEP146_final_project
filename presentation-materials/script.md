@@ -1,16 +1,16 @@
 # Presentation Script: AI Security Risks
 
 ## What This Presentation Is About
-
-This presentation is about AI security risks that don't get enough attention. When you look at AI news, most coverage focuses on exciting things - which company has the best model, scientific breakthroughs, productivity gains, or worries about job loss. But security risks? They only make headlines after something bad happens. So we're highlighting three specific risks that directly affect people who use AI tools.
+Today we're covering AI security risks. There are many out there, but we'll focus on three that directly affect us as users - and then explain why AI creates these risks in the first place.
+When you look at AI news, most of it is about capabilities - model competitions, scientific breakthroughs, productivity tools. You also see a lot about job fears.
+But security risks? They don't get much attention until something goes wrong. So let's look at a few examples.
 
 ---
 
 ## Risk 1: Data Leaks in AI Chats
-
-The first risk is surprisingly simple. When people use AI chatbots like ChatGPT, they often paste confidential information - source code, internal documents, API keys, business strategies - without thinking about where that data goes. The data might be stored on the company's servers or even used to train future models.
-
-The famous example is Samsung in 2023. Their engineers pasted proprietary semiconductor code into ChatGPT to help with debugging. When this was discovered internally, Samsung responded by banning ChatGPT across the entire company. According to a security company called Cyberhaven, about 11% of data pasted into ChatGPT is confidential. This risk doesn't require any special "agent mode" - it's just copy and paste.
+First: data leaks in AI chats. Users paste confidential information into chatbots without thinking about where that data goes.
+In 2023, Samsung engineers pasted proprietary code into ChatGPT for debugging. The issue was reported internally, and Samsung banned ChatGPT company-wide.
+According to Cyberhaven, about 11% of data pasted into ChatGPT is confidential - source code, internal documents, credentials.
 
 ---
 
@@ -37,14 +37,9 @@ According to one study, about 48% of AI-generated code has some kind of vulnerab
 ---
 
 ## Why AI Is Different (The Core Insight)
-
-So why do all these risks exist? It comes down to AI's fundamental nature.
-
-Traditional programs follow strict rules. They execute exactly what's written in the code. Same input always produces the same output. You can't "talk" a traditional program into doing something it wasn't programmed to do.
-
-AI is different. AI interprets language. This flexibility is what makes AI useful - it can understand your intent even if you phrase things differently. But that same flexibility creates vulnerabilities. AI can be manipulated through words. Hidden instructions can redirect its behavior. It generates code based on patterns it learned, not strict security rules.
-
-Traditional security thinking assumes you control the code and the inputs. But with AI, the attack surface is language itself. You can't just patch a vulnerability when the vulnerability is the AI's willingness to follow instructions it reads.
+So why do these risks happen? It comes down to how AI works.
+Traditional programs follow strict rules - same input, same output. AI interprets language, which makes it flexible but also unpredictable. It can be influenced by how things are worded.
+That flexibility is useful, but it also means we should stay aware when using these tools. Thanks for listening.
 
 ---
 

@@ -2,8 +2,7 @@
 
 **Team Members:**
 - Tatsuyuki Morishita (108776253)
-- [Student Name 2] (Student ID)
-- [Student Name 3] (Student ID)
+- Elmira Huseynzade (114652258)
 
 ## Topic Summary
 This project explores the security risks associated with using Artificial Intelligence tools, focusing on three specific areas that affect everyday users:

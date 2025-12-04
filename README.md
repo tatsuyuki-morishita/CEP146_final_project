@@ -1,7 +1,7 @@
 # AI Security: Hidden Risks of the AI Revolution
 
 **Team Members:**
-- [Student Name 1] (Student ID)
+- Tatsuyuki Morishita (108776253)
 - [Student Name 2] (Student ID)
 - [Student Name 3] (Student ID)
 

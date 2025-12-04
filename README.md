@@ -20,7 +20,7 @@ This project explores the security risks associated with using Artificial Intell
 Traditional security relies on strict rules, but AI relies on flexible interpretation of language. Given that this flexibility is what makes AI useful, is it possible to ever make AI completely secure, or must we accept a new baseline of risk in exchange for its capabilities?
 
 ## Video
-[Link to YouTube Video]
+https://youtu.be/k8IWDorS55E
 
 ## References
 See [SOURCES.md](SOURCES.md) for a full list of references.

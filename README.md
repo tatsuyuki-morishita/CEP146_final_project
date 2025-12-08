@@ -21,5 +21,8 @@ Traditional security relies on strict rules, but AI relies on flexible interpret
 ## Video
 https://youtu.be/k8IWDorS55E
 
+## Slides
+https://docs.google.com/presentation/d/1mdP15ygMkIgcKODtua8bBknsxekEDG1Bf_bPVNPUatM/edit?usp=sharing
+
 ## References
 See [SOURCES.md](SOURCES.md) for a full list of references.
